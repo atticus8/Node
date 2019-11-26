@@ -1,7 +1,6 @@
 {
   "name": "node",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/atticus8/Node/issues"
   },
-  "homepage": "https://github.com/atticus8/Node#readme"
+  "homepage": "https://github.com/atticus8/Node#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "node-spotify-api": "^1.1.1"
+  },
+  "devDependencies": {},
+  "description": ""
 }
